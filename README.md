@@ -110,7 +110,7 @@ Before you begin, ensure you have the following installed:
 #### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ContriBlock.git
+git clone https://github.com/Project-Xes/Contri
 cd ContriBlock
 ```
 
