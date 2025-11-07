@@ -537,11 +537,11 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 📊 Project Stats
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/ContriBlock?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/ContriBlock?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/ContriBlock)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/ContriBlock)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/ContriBlock)
+![GitHub stars](https://img.shields.io/github/stars/Project-Xes/Contri?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Project-Xes/Contri?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Project-Xes/Contri)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Project-Xes/Contri)
+![GitHub last commit](https://img.shields.io/github/last-commit/Project-Xes/Contri)
 
 ---
 
