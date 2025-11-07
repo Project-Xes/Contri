@@ -1,0 +1,453 @@
+# ============================================
+# ContriBlock - Decentralized Contribution Platform
+# ============================================
+
+# ============================================
+# ENVIRONMENT & SECRETS
+# ============================================
+.env
+.env.*
+!.env.example
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ============================================
+# PYTHON / FLASK BACKEND
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Virtual environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ============================================
+# DATABASE FILES
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+db.sqlite3
+db.sqlite3-journal
+instance/
+dev.db
+
+# ============================================
+# UPLOADS & USER DATA
+# ============================================
+uploads/
+backend/uploads/
+backend/backend/uploads/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+*.ico
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+*.mp3
+*.wav
+*.ogg
+*.flac
+
+# Exception: Keep example/placeholder files if needed
+!**/examples/**/*
+!**/placeholders/**/*
+
+# ============================================
+# BLOCKCHAIN / SMART CONTRACTS
+# ============================================
+# Contract build artifacts (keep source .sol files)
+backend/contracts/build/
+contracts/build/
+*.abi
+*.bin
+
+# Keep contract source and deployment scripts
+!backend/contracts/*.sol
+!backend/contracts/deploy_contract.py
+
+# ============================================
+# NODE.JS / FRONTEND (React + Vite)
+# ============================================
+
+# Dependencies
+node_modules/
+glow-contrib/node_modules/
+jspm_packages/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+glow-contrib/dist/
+.next/
+.nuxt/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+*.lcov
+.nyc_output
+
+# Testing
+lib-cov
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# TypeScript cache
+*.tsbuildinfo
+.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rscache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Vite
+.vite/
+vite.config.*.timestamp-*
+
+# Storybook build outputs
+.out
+.storybook-out
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Lock files (optional - uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb
+
+# ============================================
+# FIREBASE
+# ============================================
+.firebase/
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# ============================================
+# EDITOR & IDE
+# ============================================
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# OPERATING SYSTEM
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ============================================
+# MISCELLANEOUS
+# ============================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Compressed files (unless needed for project)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Test files
+test_*.py
+*_test.py
+check_*.py
+
+# Temporary Python scripts
+test_pinata_upload.py
+check_users.py
+
+# Random folders/files
+25.2/
+glow-contrib/bun.lockb
+
+# ============================================
+# KEEP IMPORTANT FILES
+# ============================================
+# These patterns ensure important files are tracked
+
+# Keep all source code
+!**/*.py
+!**/*.ts
+!**/*.tsx
+!**/*.js
+!**/*.jsx
+!**/*.sol
+!**/*.html
+!**/*.css
+!**/*.scss
+
+# Keep configuration files
+!**/*.json
+!**/*.yaml
+!**/*.yml
+!**/*.toml
+!**/Dockerfile
+!**/docker-compose.yml
+!**/.dockerignore
+
+# Keep documentation
+!**/*.md
+!**/LICENSE
+!**/README*
+
+# Keep important backend files
+!backend/requirements.txt
+!backend/config.py
+!backend/app.py
+!backend/wsgi.py
+!backend/manage.py
+
+# Keep important frontend files
+!glow-contrib/package.json
+!glow-contrib/vite.config.ts
+!glow-contrib/tsconfig*.json
+!glow-contrib/tailwind.config.ts
+!glow-contrib/postcss.config.js
+!glow-contrib/components.json
+!glow-contrib/index.html
